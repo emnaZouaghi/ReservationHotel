@@ -1,6 +1,6 @@
-export const reserverHotel=(data)=>{
+export  const reserverHotel=(data)=>{
     return {
-        type: 'getHotelsData',
+        type: 'getHotelSelected',
         data: data
     };
 };

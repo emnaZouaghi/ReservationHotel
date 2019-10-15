@@ -8,9 +8,7 @@ import { useSelector, useDispatch } from 'react-redux';
 
 
   export default function pannier() {
-     const hotels=useSelector(state => state.counter);
-     
-
+     const hotels=useSelector(state => state.reducerpannier);
      
             return (
                 <Row>
